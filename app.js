@@ -78,7 +78,7 @@ function getUserInput(e) {
 
         displayTemp.textContent = `${curTemp}°C`;
 
-        displayFeelsLike.textContent = `Feels like: ${feelsLike}`;
+        displayFeelsLike.textContent = `Feels like: ${feelsLike}°C`;
 
         displayCloud.textContent = cloudCover;
 
