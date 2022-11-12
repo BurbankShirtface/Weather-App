@@ -28,7 +28,7 @@ function getUserInput(e) {
     } else {
       let userCity = textbox.value;
 
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${userCity},ca&id=524901&appid=2f5fc75e2778d38e8b6c67d84ddbc88d`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${userCity},ca&id=524901&appid=2f5fc75e2778d38e8b6c67d84ddbc88d`;
 
       fetch(url)
         .then((res) => res.json())
