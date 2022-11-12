@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="leaf">🍁</h1>
+      <h1>Current Weather App</h1>
+      <form class="main__input">
+        <input
+          id="main__input--text"
+          type="text"
+          placeholder="Enter A Canadian City..."
+          autocomplete="off"
+        />
+        <input id="submit-button" type="submit" />
+      </form>
+      <!-- <div class="main__weather-display-container">
+        <div class="main__display">
+          <h3 class="display__title">City Name</h3>
+          <h2 class="display__temp">69°C</h2>
+          <h6 class="display__feels-like">Feels like: 69°C</h6>
+          <h6>Clouds</h6>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+
+          <div class="sun-container">
+            <h6 class="sun-text">Sunrise: 5:00 AM</h6>
+            <h6 class="sun-text">Sunset: 5:00 PM</h6>
+          </div>
+        </div>
+      </div> -->
+      <div class="error-message">City not found...</div>
+      <div class="main__weather-display-container">
+        <div class="main__display">
+          <h3 class="display__title"></h3>
+          <h2 class="display__temp"></h2>
+          <h6 class="display__feels-like"></h6>
+          <h6 class="cloud-cover"></h6>
+          <img class="cloud-img" />
+
+          <div class="sun-container">
+            <h6 class="sun-text" id="sunrise"></h6>
+            <h6 class="sun-text" id="sunset"></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
